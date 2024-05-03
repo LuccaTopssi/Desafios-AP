@@ -7,5 +7,5 @@ if(cantidadDeseada >= 5) {
     alert(`El costo final con el descuento del 10% de ${nombreProducto} es de: $${precioFinal}`)
 }
 else(cantidadDeseada < 5)
-    precioFinal = precioFinal
+    precioFinal = precioTotal
     alert(`El costo final de ${nombreProducto} es de: $${precioFinal}`)
