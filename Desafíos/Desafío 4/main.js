@@ -1,4 +1,4 @@
-function sumarProductos(precioUnitario, cantidadDeseada) {
+const sumarProductos = (precioUnitario, cantidadDeseada) => {
     let gastoTotal = precioUnitario * cantidadDeseada;
     return gastoTotal;
 }
